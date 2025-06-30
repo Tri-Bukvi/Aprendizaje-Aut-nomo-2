@@ -16,7 +16,7 @@ def mostrar_tabrero(palabra_secreta, letras_adivinadas):
 def jugar_ahorcado():
     palabra_secreta=obtener_palabra_aleatoria()
     letras_adivinadas=[]
-    intentos_restantes=6
+    intentos_restantes=7
 
     while intentos_restantes>0:
         mostrar_tabrero(palabra_secreta, letras_adivinadas)
